@@ -14,6 +14,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','SECRET_KEY')
 
 DEBUG = os.environ.get('DJANGO_SECRET_DEBUG','DEBUG')
 
+
 ALLOWED_HOSTS = ['*']
 
 
@@ -28,6 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'core',
+    'blog',
 ]
 
 MIDDLEWARE = [
